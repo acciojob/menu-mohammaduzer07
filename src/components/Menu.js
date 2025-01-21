@@ -10,8 +10,8 @@ const Menu = ({setCategory}) =>{
                 <div className="menu-heading">
                     <p onClick={() => setCategory("all")} >All</p>
                     <p id="filter-btn-1" onClick={() => setCategory("breakfast")} >BreakFast</p>
-                    <p id="filter-btn-1" onClick={() => setCategory("lunch")} >Lunch</p>
-                    <p id="filter-btn-1" onClick={() => setCategory("shakes")} >Shakes</p>
+                    <p id="filter-btn-2" onClick={() => setCategory("lunch")} >Lunch</p>
+                    <p id="filter-btn-3" onClick={() => setCategory("shakes")} >Shakes</p>
                 </div>
             </div>
         </>
